@@ -11,7 +11,7 @@ use time::{Duration, OffsetDateTime};
 use crate::impl_debug;
 
 const MEGABYTE_BYTES: u64 = 1_000_000;
-pub const MAX_DEFAULT_SIZE_BYTES: u64 = MEGABYTE_BYTES * 1000; // 1 GB
+const MAX_DEFAULT_SIZE_BYTES: u64 = MEGABYTE_BYTES * 1000; // 1 GB
 
 type HmacSha256 = Hmac<Sha256>;
 
