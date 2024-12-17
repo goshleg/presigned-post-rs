@@ -23,7 +23,7 @@ fn main() {
     .with_expiration(time::Duration::minutes(10))
     .with_content_length_range(0, 5 * 1_000_000)
     .build()
-    .expect("Failed to build presigned post form");
+    .expect("Failed to build presigned post");
 }
 
 ```
