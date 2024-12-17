@@ -1,4 +1,4 @@
-# Presigned post object operation
+# presigned-post-rs [![Crates.io](https://img.shields.io/crates/v/presigned-post-rs)](https://crates.io/crates/presigned-post-rs)
 
 Simple presigned post for aws s3 api.
 
